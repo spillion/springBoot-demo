@@ -27,7 +27,9 @@ public class jdbcController {
 
     @PostMapping("/postname")
     public String hello(@RequestBody Map params) {
-        //测试git
+        //测试git1
+        //测试git2
+        //测试git3
         String result = "name：" + params.get("name") + "\n age：" + params.get("age");
         System.out.println(result);
         return result;
